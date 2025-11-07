@@ -3,9 +3,6 @@ FROM n8nio/n8n
 # Устанавливаем временную зону
 ENV TZ=Europe/Moscow
 
-# Создаем папку для данных
-VOLUME /home/node/.n8n
-
 # Экспортируем порт
 EXPOSE 5678
 
